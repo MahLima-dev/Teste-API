@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: beige;
+}
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color:white ;
+    max-height: 560px;
+    width: 580px;
+    margin: 45px auto;
+    border-radius: 8px;
+    padding: 25px;
+
+}
+
+
+form{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 45px 0 20px 0;
+    gap: 10px;
+}
+
+input{
+    display: block;
+    width: 100%;
+    padding: 9px;
+}
+
+#add{
+    display: block;
+    background-color: rgb(25, 152, 25);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    width: 100px;
+    cursor: pointer;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 16px;
+   
+}
+li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+    background-color: #eee;
+    list-style-type: none;
+    border-radius: 8px;
+    padding: 8px;
+
+}
+.delBtn{
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+
+}
